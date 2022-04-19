@@ -33,7 +33,7 @@ test {
 }
 
 String dockerHubUsernameProperty = findProperty('dockerHubUsername') ?: 'sumeetyajnik'
-String imageName = "${dockerHubUsernameProperty}/fsd_spring_boot_api:$version"
+String imageName = "${dockerHubUsernameProperty}/sy-fsd-spring-boot-api:$version"
 
 docker {
     name imageName
