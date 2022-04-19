@@ -28,7 +28,7 @@ Resources:
     Properties:
       Family: !Sub ${ServiceName}-task
       Cpu: 256
-      Memory: 512
+      Memory: 1024
       NetworkMode: awsvpc
       ContainerDefinitions:
         - Name: !Sub ${ServiceName}-container
