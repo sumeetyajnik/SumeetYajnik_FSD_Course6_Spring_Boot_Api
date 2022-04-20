@@ -1,7 +1,7 @@
-package com.tomgregory.controller;
+package com.api.controller;
 
-import com.tomgregory.entity.ThemeParkRide;
-import com.tomgregory.repository.ThemeParkRideRepository;
+import com.api.entity.ThemeParkRide;
+import com.api.repository.ThemeParkRideRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

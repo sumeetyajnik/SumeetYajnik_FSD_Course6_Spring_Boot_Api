@@ -1,7 +1,7 @@
-package com.tomgregory;
+package com.api;
 
-import com.tomgregory.entity.ThemeParkRide;
-import com.tomgregory.repository.ThemeParkRideRepository;
+import com.api.entity.ThemeParkRide;
+import com.api.repository.ThemeParkRideRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

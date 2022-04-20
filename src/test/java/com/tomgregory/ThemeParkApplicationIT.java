@@ -1,4 +1,4 @@
-package com.tomgregory;
+package com.api;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
